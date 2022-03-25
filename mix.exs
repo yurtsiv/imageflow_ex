@@ -24,7 +24,7 @@ defmodule Imageflow.MixProject do
 
   defp deps do
     [
-      {:rustler, "~> 0.21.1"},
+      {:rustler, "~> 0.24.0"},
       {:jason, "~> 1.2"},
       {:ex_doc, ">= 0.0.0", only: :dev, runtime: false}
     ]
